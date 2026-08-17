@@ -1,0 +1,150 @@
+/*
+ Theme Name:        Prespa Wellness
+ Theme URI:         https://nasiothemes.com/themes/prespa/
+ Description:       Prespa Wellness serves as a child theme of Prespa, inheriting all the features of Prespa. The theme is tailored for practitioners, businesses and coaches in the wellness industry, including yoga instructors, nutritionists, healthcare specialists, massage therapists and wellness coaches. The theme is optimized to work with Easy Appointments plugin, allowing users to easily book appointments and manage their schedules for free. Theme demo: https://prespa-wellness-demo.nasiothemes.com/
+ Author:            Atanas Yonkov
+ Author URI:        http://nasiothemes.com
+ Template:          prespa
+ Requires at least: 6.1
+ Tested up to:      7.0
+ Requires PHP:      5.6
+ Version:           1.0.7
+ License:           GNU General Public License v2 or later
+ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:       prespa-wellness
+ Tags:              education, one-column, two-columns, three-columns, four-columns, grid-layout, right-sidebar, left-sidebar, block-patterns, wide-blocks, custom-colors, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+.entry-content a:not(.wp-element-button),
+.widget-area a:not(.wp-element-button) {
+	text-decoration: underline;
+}
+
+.call-to-action a {
+	border-radius: .375rem;
+}
+
+.post-thumbnail img, .hentry, .widget-area section {
+	border-radius: .75rem;
+}
+
+.top-meta .cat-links a, .wp-element-button {
+	border-radius: .375rem;
+}
+
+.prespa-wellness-cards .wp-block-column.has-background {
+	display: flex;
+	align-items: center;
+}
+
+.prespa-wellness-cards .wp-block-column > .wp-block-columns {
+	width: 100%;
+}
+
+.prespa-wellness-cards .wp-block-columns {
+	align-items: stretch;
+}
+
+.prespa-wellness-categories .wp-block-cover {
+	overflow: hidden;
+}
+.prespa-wellness-categories .wp-block-cover__image-background {
+	transition: transform 0.5s ease;
+}
+.prespa-wellness-categories .wp-block-cover:hover .wp-block-cover__image-background {
+	transform: scale(1.06);
+}
+.prespa-wellness-categories .wp-block-cover__background {
+	transition: opacity 0.4s ease;
+}
+.prespa-wellness-categories .wp-block-cover:hover .wp-block-cover__background {
+	opacity: 0.5;
+}
+
+.prespa-wellness-case-studies .wp-block-cover {
+	overflow: hidden;
+}
+.prespa-wellness-case-studies .wp-block-cover__image-background {
+	transition: transform 0.5s ease;
+}
+.prespa-wellness-case-studies .wp-block-cover:hover .wp-block-cover__image-background {
+	transform: scale(1.06);
+}
+.prespa-wellness-case-studies .wp-block-cover__background {
+	transition: opacity 0.4s ease;
+}
+.prespa-wellness-case-studies .wp-block-cover:hover .wp-block-cover__background {
+	opacity: 0.5;
+}
+
+.prespa-wellness-articles .wp-block-columns > .wp-block-column {
+	transition: transform 0.3s ease;
+}
+.prespa-wellness-articles .wp-block-columns > .wp-block-column:hover {
+	transform: translateY(-6px);
+}
+.prespa-wellness-articles figure.wp-block-image {
+	overflow: hidden;
+	border-radius: 15px;
+}
+.prespa-wellness-articles figure.wp-block-image img {
+	transition: transform 0.5s ease;
+}
+.prespa-wellness-articles .wp-block-column:hover figure.wp-block-image img {
+	transform: scale(1.06);
+}
+
+/* Easy Appointments styles */
+.entry-content .ea-bootstrap .final {
+	margin-top: 2.5rem;
+}
+.entry-content .ui-datepicker .ui-datepicker-current-day {
+	background-color: #d6aea2;
+}
+
+.entry-content .ea-bootstrap .ui-datepicker .no-slots, 
+.entry-content .ea-bootstrap .ui-datepicker .no-slots:hover {
+	background-color: #e7e7e75c;
+}
+
+.ui-datepicker table, .ui-datepicker th, 
+.ui-datepicker td {
+	border: 1px solid rgb(214 174 162) !important;
+}
+
+.ui-datepicker-next.ui-corner-all {
+	color: #d6aea2 !important;
+}
+
+.entry-content .ui-datepicker-inline.ui-datepicker.ui-helper-clearfix.ui-corner-all {
+	border: 1px solid #d6aea2;
+  	border-radius: 10px;
+  	box-shadow: 0 0 8px rgb(214 174 162 / 60%);
+}
+
+.ea-bootstrap a {
+    color: #6b7a78 !important;
+}
+
+.entry-content .ea-bootstrap .btn-primary, 
+.entry-content .ea-bootstrap .btn-primary:hover{
+    background-color: #d6aea2;
+    border-color: #d6aea2;
+}
+
+.entry-content .wp-block-create-block-ea-blocks {
+ 	background-color: #d6aea2;
+}
+
+.entry-content .ea-bootstrap .form-control {
+	border-radius: 10px;
+}
+
+.entry-content .ea-bootstrap .ui-datepicker .free {
+	background-color:#d6aea278;
+}
+
+.entry-content .ea-bootstrap.ea-bootstrap .selected-time, 
+.entry-content .ea-bootstrap.ea-bootstrap .selected-time:hover {
+	background-color: #ecd9d3;
+}
